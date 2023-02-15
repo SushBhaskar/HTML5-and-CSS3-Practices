@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label>First name :</label>
+        <input type="text" name="fullname" required>
+        <br><br>
+        <label>Last name :</label>
+        <input type="text" name="lastname" required>
+        <br><br>
+        <label>Favorite Programming Languages:</label>
+        <input type="radio" name="language" required>
+        <label>Java</label>
+        <input type="radio" name="language" required>
+        <label>C#</label>
+        <input type="radio" name="language" required>
+        <label>PHP</label>
+        <input type="radio" name="language" required>
+        <label>Ruby</label>
+        <br>
+        <br>
+        <input type="submit">
+    </form>
+<br>
+<br>
+
+    <form>
+        <h1>My feedback form</h1>
+        <ul>
+           <li><label>Name :</label> 
+            <input type="text" required name="name"></li>
+            <li><label>Email :</label>
+            <input type="email" required name="email"></li>
+            <li><label>Password :</label>
+            <input type="password" required name="pwd"></li>
+            <br>
+            <li><label>Please check all the emotions that apply to you :</label></li>
+            <ul>
+                <li type="disc"><label>Angry</label>
+                    <input type="checkbox" name="emotion"></li>
+                <li type="disc"><label>Sad</label>
+                    <input type="checkbox"  name="emotion"></li>
+                <li type="disc"><label>Happy</label>
+                    <input type="checkbox" name="emotion"></li>
+                <li type="disc"><label>Ambivalent</label>
+                    <input type="checkbox" name="emotion"></li>
+            </ul>
+            <li><label>How satisfied you were with our service?</label></li> 
+            <ul>
+                <li type="disc"><label>Very Satisfied</label>
+                    <input type="radio" name="service"></li>
+                <li type="disc"><label>Satisfied</label>
+                    <input type="radio" name="service"></li>
+                <li type="disc"><label>Didn't care</label>
+                    <input type="radio" name="service"></li>
+                <li type="disc"><label>Dissatisfied</label>
+                    <input type="radio" name="service"></li>
+                <li type="disc"><label>Very Dissatisfied</label>
+                    <input type="radio" name="service"></li>
+            </ul> 
+            <li><label for="a">Furthur Comments :</label>
+            <textarea name="Comments" id="a" cols="30" rows="5"></textarea></li>
+            <li><label>Bio Photo:</label>
+            <input type="text"> <input type="file"></li>
+            <li>
+                <label>Visited Location:</label>
+                <select name="location">Select Location
+                    <option value="">select location</option>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Kanakapura">Kanakapura</option>
+                    <option value="Andhra">Andhra</option>
+                    <option value="Bihar">Bihar</option>
+                </select>
+            </li>
+            <li><input type="Submit"></li>
+        </ul>
+    </form>
+<br>
+<br>
+    <h2>Form</h2>
+    <form>
+    <table cellpacing="20">
+        <tbody>
+            <tr>
+                <td align="left"><Label>Name :</Label></td>
+                <td align="center"> <input type="text" name="name"></td> 
+            </tr>
+            <tr>
+                <td align="left"><Label>Password :</Label></td>
+                <td align="center"> <input type="password" name="pwd"></td> 
+            </tr>
+            <tr>
+                <td align="left"><Label>Gender :</Label></td>
+                <td><Label>Male</Label>
+                    <input type="radio" name="gender">
+                    <Label>Female</Label>
+                    <input type="radio" name="gender">
+                </td> 
+            </tr>
+            <tr>
+                <td align="left"><Label for="b">Phone no :</Label></td>
+                <td><select align="center" name="phno" id="b">
+                    <option value="">997</option>
+                    <option value="">91</option>
+                    <option value="">442</option>
+                </select>
+                <input type="number" name="phno">
+                </td> 
+            </tr>
+        </tbody>
+    </table>
+    <input type="submit">
+    </form>
+    <br>
+   <br>
+   
+    <form>
+    <h2 align="left">Register your account</h2>
+    <table cellspacing="20">
+        <tr>
+            <td align="right"><label>Enter name :</label></td>
+            <td align="center"><input type="text" placeholder="Enter user here" name="name"></td>
+        </tr>
+        <tr>
+            <td align="right"><label>Enter Email ID :</label></td>
+            <td align="center"><input type="email" placeholder="Enter email id here" name="email"></td>
+        </tr>
+        <tr>
+            <td align="right"><label>Enter user name :</label></td>
+            <td align="center"><input type="text" placeholder="Enter user name here" name="user"></td>
+        </tr>
+        <tr>
+            <td align="right"><label>Enter Password :</label></td>
+            <td align="center"><input type="password" placeholder="Enter Password here" name="pwd"></td>
+        </tr>
+        <tr>
+            <td align="right"><label>Enter Confirm Password :</label></td>
+            <td align="center"><input type="password" placeholder="Enter password here" name="confirmpwd"></td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td></td>
+            <td align="right"><input type="button" value="Clear Form" > <input type="button" value="Create account"></td>
+        </tr>
+    </table>
+    </form>
+<br>
+<br>
+   
+    <h2>Forms Demo</h2>
+        <form >
+            <table>
+                <thead>
+                    <th>   
+                        <fieldset align="left" width="100px">
+                            <legend>Dual Column example</legend>
+                            <table cellpacing="20" width="200px">
+                                <tbody>
+                                    <tr>
+                                        <td align="left"><Label>email :</Label></td>
+                                        <td align="center"> <input type="email" name="email"></td> 
+                                    </tr>
+                                    <tr>
+                                        <td align="left"><Label>Phone :</Label></td>
+                                        <td align="center"> <input type="number" name="phone"></td> 
+                                    </tr>
+                                    <tr>
+                                        <td align="left"><Label>name :</Label></td>
+                                        <td align="center"> <input type="name" name="name"></td> 
+                                    </tr>
+                                    <tr>
+                                        <td align="left"><Label>url :</Label></td>
+                                        <td align="center"> <input type="text" name="url"></td> 
+                                    </tr>
+                                    <tr>
+                                    <td><input type="button" value="submit form"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </fieldset>
+                    </th>
+       
+    
+                <th>
+                    <fieldset align="left" width="100px">
+                        <legend>Single Column example</legend>
+                        <table cellpacing="20" width="200px">
+                            <tbody>
+                                <tr>
+                                    <td align="left"><Label>email :</Label> <input type="email" name="email"></td> 
+                                </tr>
+                                <tr>
+                                    <td align="left"><Label>Phone :</Label><input type="number" name="phone"></td> 
+                                </tr>
+                                <tr>
+                                    <td align="left"><Label>name :</Label><input type="name" name="name"></td> 
+                                </tr>
+                                <tr>
+                                    <td align="left"><Label>url :</Label><input type="text" name="url"></td> 
+                                </tr>
+                                <tr>
+                                <td><input type="button" value="submit form"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                </th>
+            </thead>
+        </table>
+    </form>
+<br>
+<br>
+<br>
+<br>
+
+
+<h2>Html form page</h2>
+<table border="2" cellspacing="4px" cellpadding="8px" width="500px">
+        <thead>
+            <th colspan="2"><b>Pizza Shop 2.0</b></th>
+        </thead>
+        <tbody>
+            <tr>
+                <td width="150 px">Name</td>
+                <td>
+                    <input type="text" name="name" style="background-color: pink;">
+                </td>
+            </tr>
+            <tr>
+                <td>Pizza Topping</td>
+                <td>
+                    <input type="radio" name="pizza">
+                    <label>Supreme</label> <br>
+                    <input type="radio" name="pizza">
+                    <label>Vegetarian</label> <br>
+                    <input type="radio" name="pizza">
+                    <label>Hawalian</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Pizza Sauce</td>
+                <td>
+                    <select>
+                        <option value="">Tomato</option>
+                        <option value="">Chilli</option>
+                        <option value="">Soya</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Optional Extras</td>
+                <td>
+                    <input type="checkbox" name="extra">
+                    <label>Extra Cheese</label> 
+                    <input type="checkbox" name="extra">
+                    <label>Gluten Free Base</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><label >Delivery Instructions :</label><br>
+                    <textarea  cols="60" rows="4"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" value="Send my Order">
+                </td>
+            </tr>
+        </tbody>
+</table>
+<br>
+<br>
+
+
+    <form>
+    <table cellpacing="20">
+        <tbody>
+            <tr>
+                <td align="left"><Label>Username :</Label></td>
+                <td align="center"> <input type="text" name="name"></td> 
+            </tr>
+            <tr>
+                <td align="left"><Label>Password :</Label></td>
+                <td align="center"> <input type="password" name="pwd"></td> 
+            </tr>
+            <tr>
+                <td align="left"><Label>City of Employment :</Label></td>
+                <td align="center"> <input type="text" name="city"></td> 
+            </tr>
+            <tr>
+                <td align="left"><Label>Web Server :</Label></td>
+                <td><select>
+                    <option value="">-choose a server-</option>
+                    <option value="">ghhfd</option>
+                    <option value="">fgjiid</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td align="left"><label>Specify your role:</label></td>
+                <td>
+                    <input type="radio" name="role">
+                    <label>Admin</label> <br>
+                    <input type="radio" name="role">
+                    <label>Engineer</label> <br>
+                    <input type="radio" name="role">
+                    <label>Manager</label><br>
+                    <input type="radio" name="role">
+                    <label>Guest</label>
+                </td>
+            </tr>
+            <tr>
+                <td >Single Sign-on to the following:</td>
+                <td ><input type="checkbox" name="sign" > <label>Mail</label>
+                <br>
+                <input type="checkbox" name="sign"> <label>Payroll</label>
+                <br>
+                <input type="checkbox" name="sign"> <label>Self-Service</label></td>
+            </tr>
+            <tr>
+
+                <td align="right">
+                    <input type="button" value="Login"> <input type="button" value="Reset">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </form>
+<br>
+<br>
+
+    
+    <h3>Registration form</h3>
+    <form>
+        <table cellspacing="15" width="500px">
+           <tr>
+                <td align="left">
+                    <label >First Name</label></td>
+                    <td align="center"><input type="text" name="fname">
+                </td>
+           </tr>
+           <tr>
+                <td align="left">
+                    <label >Last Name</label></td>
+                    <td align="center"><input type="text" name="lname">
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <label >Nick Name</label></td>
+                    <td align="center"><input type="text" name="fname">
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <label >e-mail</label></td>
+                    <td align="center"><input type="email" name="email">
+                </td>
+           </tr>
+           <tr>
+                <td align="left">
+                    <label >Password</label></td>
+                    <td align="center"><input type="password" name="pwd">
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <label >Date of Birth</label></td>
+                    <td align="center"><input type="text" name="dob">
+                </td>
+           </tr>
+           <tr>
+            <td align="left">
+                <label >Gender</label></td>
+                <td align="center">
+                    <input type="radio" name="gender">
+                    <label>Male</label>
+                    <input type="radio" name="gender">
+                    <label>Female</label>
+                    <input type="radio" name="gender">
+                    <label>Others</label>
+                </td>
+            </td>
+        </tr>
+           <tr>
+                <td align="left">
+                    <label >Mobile</label></td>
+                    <td align="center"><input type="number" name="num">
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <label >Address</label></td>
+                    <td align="center"> <textarea name="add"  cols="20" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td align="right"><input type="button" value="Submit"></td> <td align="center"><input type="button" value="Reset"></td>
+            </tr>
+        </table>
+    </form>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <fieldset>
+            <legend>Registration form</legend>
+            <label for="a">Full Name</label>
+            <input type="text" id="a" placeholder="Enter full name" name="fullname" required minlength="4" maxlength="20">
+            <br>
+            <label for="b"> Email Id</label>
+            <input type="text" id="b" placeholder="Enter email" name="Email" required >
+            <br>
+            <label for="c"> Password</label>
+            <input type="password" name="pwd" id="c" required placeholder="Enter password">
+            <br>
+            <label for="d">Number</label>
+            <input type="number" id="d" name="number" maxlength="10">
+            <br>
+            <label>Date of birth</label>
+            <input type="date" name="date" placeholder="Enter DOB">
+            <br>
+            <label>Gender</label>
+            <label>Male</label>
+            <input type="radio" name="gender">
+            <label>Female</label>
+            <input type="radio" name="gender">
+            <br>
+            <label>Select Language</label>
+            <label>C Programming</label>
+            <input type="checkbox" name="language">
+            <label>Java</label>
+            <input type="checkbox" name="language">
+            <label>Python</label>
+            <input type="checkbox" name="language">
+            <br>
+            <label>Telephone number</label>
+            <input type="tel" name="telephone">
+            <br>
+            <Label>Feedback :)</Label>
+            <textarea name="feedback" cols="30" rows="10"></textarea>
+            <br>
+            <select name="state">
+                <option value="">Select state</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Andhra">Andhra</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Tamilnadu">Tamilnadu</option>
+                <option value="Kerala">Kerala</option>
+            </select>
+            <br>
+
+            <label>Districts</label>
+            <input list="e" type="text" placeholder="select district">
+            <datalist id="e">
+                <option value="Kadapa">Kadapa</option>
+                <option value="Anantpur">Anantpur</option>
+                <option value="Chitoor">Chitoor</option>
+                <option value="Kurnool">Kurnool</option>
+
+            </datalist>
+            <br>
+            <input type="submit">
+            <input type="reset">
+
+        </fieldset>
+    </form>
+</body>
+</html>

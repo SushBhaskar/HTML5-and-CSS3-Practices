@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table assignment</title>
+</head>
+<body>
+    <h1>Basic HTML Table</h1>
+    <table border="2" cellspacing="2px" cellpadding="6px">
+        <thead>
+            <tr>
+                <th>Level1</th>
+                <th>Level2</th>
+                <th>Level3</th>
+                <th>Info</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="6">System</td>
+                <td rowspan="4">System Apps</td>
+                <td rowspan="3">System Env</td>
+                <td>App test</td>
+                <td>foo</td>
+            </tr>
+            <tr>
+                <td>App Memory</td>
+                <td>foo</td>
+            </tr>
+            <tr>
+                <td>App Test</td>
+                <td>bar</td>
+            </tr>
+            <tr>
+                <td>System Env2</td>
+                <td>App test </td>
+                <td>bar</td>
+            </tr>
+            <tr>
+                <td rowspan="6">System Memory</td>
+                <td rowspan="6">Memory test</td>
+                <td>Memory Func</td>
+                <td>foo</td>
+            </tr>
+            <tr>
+                <td>App Test</td>
+                <td>foo</td>
+            </tr>
+        </tbody>
+    </table>
+<br>
+<br>
+    <h1>Table with Image</h1>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>Preview</th>
+                <th>Type</th>
+                <th>Processor</th>
+                <th>Graphic Card</th>
+                <th>In Stock</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td >
+                    <img src="./laptop1.png" alt="Laptop" height="100px" width="100px">
+                </td>
+                <td>ABBAAC9x</td>
+                <td>Intel Atom</td>
+                <td>Nividia</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td> 
+                    <img src="./laptop2.png" alt="Laptop" height="100px" width="100px">
+                </td>
+                <td>GSBGTDF</td>
+                <td>AMD</td>
+                <td>ATI</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td> 
+                    <img src="./laptop3.png" alt="Laptop" height="100px" width="100px">
+                </td>
+                <td>KGI8O2A</td>
+                <td>Inspecified</td>
+                <td>Unspecified</td>
+                <td>No</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Students Details</h1>
+    <table border="2">
+        <thead>
+            <tr>
+                <th rowspan="2">Heading</th>
+                <th rowspan="2">Students ID</th>
+                <th colspan="3">Details</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Roll Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4">Student List</td>
+                <td>1</td>
+                <td>Vector</td>
+                <td>Computer Science</td>
+                <td>12345</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Willams</td>
+                <td>Electronics</td>
+                <td>12456</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Henry</td>
+                <td>Electrical</td>
+                <td>34587</td>
+            
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Rick</td>
+                <td>Civil</td>
+                <td>45667</td>
+            </tr>
+        </tbody>
+    </table>
+<br>
+
+    <h1>Column Row Cell Table</h1>
+    <table border="2" cellpadding="6px" cellspacing="2px" width="400px">
+        <thead>
+            <tr>
+                <th>column 1</th>
+                <th>column 2</th>
+                <th>column 3</th>
+            
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Row 1 Cell 1</td>
+                <td>Row1 cell 2</td>
+                <td>Row1 cell 3</td>
+            </tr>
+            <tr>
+                <td>Row2 cell 2</td>
+                <td>Row2 cell 3</td>
+            </tr>
+            <tr>
+                <td colspan="3" >Row 3 cell 1</td>
+            </tr>
+        </tbody>
+    </table> 
+    <br>
+
+    <h1>Test table with merged cells</h1>
+    <table border="2" height="150px" width="350px" rules="all">
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">Average</th>
+                <th rowspan="2">Red eyes</th>
+            </tr>
+            <tr>
+                <th>Height</th>
+                <th>Weight</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Males</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td>Females</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Students Information</h1>
+    <table border="2" rules="all" width="450px">
+        
+        <tbody>
+            <tr>
+                <th rowspan="6">Students Information</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Address</th>
+
+            </tr>
+            <tr>
+                <th>City</th>
+                <th>House no</th>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>HND</td>
+                <td align="left">1</td>
+            </tr>
+           <tr>
+                <td>B</td>
+                <td>LHR</td>
+                <td align="center">2</td>
+           </tr>
+           <tr>
+                <td>C</td>
+                <td>SWL</td>
+                <td align="right">3</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>BWP</td>
+                <td align="left">4</td>
+           </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+</html>
